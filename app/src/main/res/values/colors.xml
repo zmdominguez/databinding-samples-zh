@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="banner_warning_background">#ffff8b</color>
+    <color name="banner_warning_highlight">#ffee58</color>
+    <color name="banner_error_background">#ff867c</color>
+    <color name="banner_error_highlight">#ef5350</color>
+    <color name="banner_info_background">#80d6ff</color>
+    <color name="banner_info_highlight">#42a5f5</color>
+</resources>
