@@ -20,7 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@{headline}"
-            android:paddingBottom="16dp"/>
+            android:padding="16dp"
+            tools:text="@tools:sample/lorem/random"/>
 
         <include layout="@layout/include_banner"
             android:layout_height="wrap_content"
