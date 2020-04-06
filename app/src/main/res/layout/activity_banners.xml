@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <import type="dev.zarah.databinding.BannersActivity.Banner" />
 
         <variable
@@ -19,25 +20,28 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{headline}"
             android:padding="16dp"
-            tools:text="@tools:sample/lorem/random"/>
+            android:text="@{headline}"
+            tools:text="@tools:sample/lorem" />
 
-        <include layout="@layout/include_banner"
-            android:layout_height="wrap_content"
+        <include
+            layout="@layout/include_banner"
             android:layout_width="match_parent"
-            app:bannerType="@{Banner.INFO}"
-            android:layout_marginBottom="16dp"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:bannerType="@{Banner.INFO}" />
 
-        <include layout="@layout/include_banner"
-            android:layout_height="wrap_content"
+        <include
+            layout="@layout/include_banner"
             android:layout_width="match_parent"
-            app:bannerType="@{Banner.WARNING}"
-            android:layout_marginBottom="16dp" />
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:bannerType="@{Banner.WARNING}" />
 
-        <include layout="@layout/include_banner"
-            android:layout_height="wrap_content"
+        <include
+            layout="@layout/include_banner"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             app:bannerType="@{Banner.ERROR}" />
 
