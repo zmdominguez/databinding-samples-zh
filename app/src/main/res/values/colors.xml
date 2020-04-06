@@ -4,10 +4,10 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
-    <color name="banner_warning_background">#ffff8b</color>
-    <color name="banner_warning_highlight">#ffee58</color>
-    <color name="banner_error_background">#ff867c</color>
-    <color name="banner_error_highlight">#ef5350</color>
-    <color name="banner_info_background">#80d6ff</color>
-    <color name="banner_info_highlight">#42a5f5</color>
+    <color name="banner_warning_background">#fffad9</color>
+    <color name="banner_warning_highlight">#ffda00</color>
+    <color name="banner_error_background">#fef3f4</color>
+    <color name="banner_error_highlight">#ed1c24</color>
+    <color name="banner_info_background">#edf6fb</color>
+    <color name="banner_info_highlight">#0081c8</color>
 </resources>
