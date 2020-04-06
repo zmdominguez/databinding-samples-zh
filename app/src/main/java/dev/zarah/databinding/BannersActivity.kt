@@ -14,6 +14,8 @@ class BannersActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = DataBindingUtil.setContentView<ActivityBannersBinding>(this, R.layout.activity_banners)
+        binding.headline = "All the UI elements below are not custom views but <include>d layouts. This illustrates how we can " +
+            "bind pre-defined values to various components of a reusable widget."
     }
 
     enum class Banner(val label: String,
@@ -26,6 +28,6 @@ class BannersActivity: AppCompatActivity() {
 }
 
 @BindingAdapter("bannerHighlight")
-fun setBannerHighlight(view: View, @ColorRes bannerHighlight: Int) {
-    view.setBackgroundColor(ContextCompat.getColor(view.context, bannerHighlight))
+fun setBannerHighlight(view: View, banner: BannersActivity.Banner) {
+    view.setBackgroundColor(ContextCompat.getColor(view.context, banner.highlight))
 }

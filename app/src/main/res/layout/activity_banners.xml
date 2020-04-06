@@ -7,15 +7,20 @@
         <import type="dev.zarah.databinding.BannersActivity.Banner" />
 
         <variable
-            name="handlers"
-            type="dev.zarah.databinding.MainActivity" />
+            name="headline"
+            type="String" />
     </data>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{headline}"
+            android:paddingBottom="16dp"/>
 
         <include layout="@layout/include_banner"
             android:layout_height="wrap_content"
