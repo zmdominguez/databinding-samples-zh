@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Databinding Demo</string>
+    <string name="next_profile">Next profile</string>
+    <string name="live_data_example_description">This example shows how the view can update in response to a change to a LiveData instance. The next profile button triggers a change on the ViewModel LiveData, causing the view to update.</string>
+    <string name="live_data_example">LiveData example</string>
 </resources>
