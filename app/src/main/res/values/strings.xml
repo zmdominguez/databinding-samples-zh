@@ -6,4 +6,8 @@
     <string name="next_profile">Next profile</string>
     <string name="live_data_example_description">This example shows how the view can update in response to a change to a LiveData instance. The next profile button triggers a change on the ViewModel LiveData, causing the view to update.</string>
     <string name="live_data_example">LiveData example</string>
+    <string name="hello_string">Hello, %1$s!</string>
+    <string name="string_formatting_description">All the UI elements below are not custom views
+        but included layouts. This illustrates how we can bind pre-defined values to various
+        components of a reusable widget.</string>
 </resources>
