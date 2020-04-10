@@ -21,4 +21,8 @@ class MainActivity : AppCompatActivity() {
     fun launchCustomSetter() {
         startActivity(Intent(this, ClipImageActivity::class.java))
     }
+
+    fun launchLiveDataExample() {
+        startActivity(Intent(this, ProfileActivity::class.java))
+    }
 }
