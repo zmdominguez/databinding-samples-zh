@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -15,10 +14,17 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-        <Button android:layout_height="wrap_content"
+        <Button
+            android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:text="Reusable banners"
-            android:onClick="@{() -> handlers.launchBanners()}"/>
+            android:onClick="@{() -> handlers.launchBanners()}" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> handlers.launchLiveDataExample()}"
+            android:text="@string/live_data_example" />
 
     </LinearLayout>
 </layout>
