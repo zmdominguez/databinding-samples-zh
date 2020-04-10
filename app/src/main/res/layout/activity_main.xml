@@ -35,7 +35,7 @@
 
         <Button android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text="String Formatting and Plurals"
+            android:text="@string/example_string_formatting"
             android:onClick="@{() -> handlers.launchStringFormatting()}"/>
 
     </LinearLayout>

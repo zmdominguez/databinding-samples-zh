@@ -14,4 +14,5 @@
     <string name="string_formatting_description">All the UI elements below are not custom views
         but included layouts. This illustrates how we can bind pre-defined values to various
         components of a reusable widget.</string>
+    <string name="example_string_formatting">String Formatting and Plurals</string>
 </resources>
