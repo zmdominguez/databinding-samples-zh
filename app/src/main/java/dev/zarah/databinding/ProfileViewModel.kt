@@ -4,11 +4,11 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 
 // based on data from https://randomuser.me/api/
-private val PROFILES = listOf(
-    Profile("Katie Harris", "Australia", "https://randomuser.me/api/portraits/women/51.jpg"),
-    Profile("Isaac Hernandez", "Spain", "https://randomuser.me/api/portraits/men/97.jpg"),
-    Profile("Clara Obrien", "United States", "https://randomuser.me/api/portraits/women/72.jpg"),
-    Profile("Elias Manner", "Finland", "https://randomuser.me/api/portraits/men/39.jpg")
+val PROFILES = listOf(
+    Profile("Katie Harris", "Australia", "https://randomuser.me/api/portraits/women/51.jpg", 1),
+    Profile("Isaac Hernandez", "Spain", "https://randomuser.me/api/portraits/men/97.jpg", 5),
+    Profile("Clara Obrien", "United States", "https://randomuser.me/api/portraits/women/72.jpg", 0),
+    Profile("Elias Manner", "Finland", "https://randomuser.me/api/portraits/men/39.jpg", 21)
 
 )
 
@@ -22,4 +22,4 @@ class ProfileViewModel {
     }
 }
 
-data class Profile(val name: String, val location: String, val avatarUrl: String)
+data class Profile(val name: String, val location: String, val avatarUrl: String, val orderCount: Int)

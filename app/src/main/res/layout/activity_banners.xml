@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <import type="dev.zarah.databinding.BannersActivity.Banner" />
 
         <variable
@@ -12,31 +11,38 @@
             type="String" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp">
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/headline_text"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="16dp"
             android:text="@{headline}"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             tools:text="@tools:sample/lorem" />
 
-        <TextView
-            android:id="@+id/name"
-            android:layout_width="0dp"
+        <include
+            layout="@layout/include_banner"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/headline_text"
-            android:text="@{@string/hello_string()}"
-            tools:text="@tools:sample/full_names" />
+            android:layout_marginBottom="16dp"
+            app:bannerType="@{Banner.INFO}" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <include
+            layout="@layout/include_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:bannerType="@{Banner.WARNING}" />
+
+        <include
+            layout="@layout/include_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:bannerType="@{Banner.ERROR}" />
+
+    </LinearLayout>
 </layout>
