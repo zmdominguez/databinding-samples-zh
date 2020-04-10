@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Data binding Demo</string>
+    <string name="custom_setter_description">This demonstrates how you can call a custom setter from a data binding expression, for example in cases where a custom view does not have a corresponding xml attribute. In the example below this is use to call setClipToOutline() to round the corners of the second image.</string>
+    <string name="example_custom_setters">Custom setters</string>
+    <string name="example_reusable_banners">Reusable banners</string>
 </resources>
