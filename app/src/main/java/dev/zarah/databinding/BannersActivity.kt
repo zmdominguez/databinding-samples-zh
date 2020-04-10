@@ -23,7 +23,8 @@ class BannersActivity : AppCompatActivity() {
     enum class Banner(
         val label: String,
         @ColorRes val highlight: Int,
-                      @ColorRes val background: Int) {
+        @ColorRes val background: Int
+    ) {
         INFO(
             "Information",
             R.color.banner_info_highlight,

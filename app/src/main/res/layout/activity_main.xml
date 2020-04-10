@@ -17,8 +17,15 @@
         <Button
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text="Reusable banners"
+            android:text="@string/example_reusable_banners"
             android:onClick="@{() -> handlers.launchBanners()}" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> handlers.launchCustomSetter()}"
+            android:text="@string/example_custom_setters" />
 
         <Button
             android:layout_width="match_parent"

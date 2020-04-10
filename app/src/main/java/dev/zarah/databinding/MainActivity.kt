@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, BannersActivity::class.java))
     }
 
+    fun launchCustomSetter() {
+        startActivity(Intent(this, ClipImageActivity::class.java))
+    }
+
     fun launchLiveDataExample() {
         startActivity(Intent(this, ProfileActivity::class.java))
     }
