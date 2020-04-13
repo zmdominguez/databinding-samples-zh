@@ -24,8 +24,17 @@
         <activity android:name=".ClipImageActivity" />
 
         <activity android:name=".ProfileActivity" />
+
         <activity android:name=".StringFormattingActivity"
             android:label="@string/example_string_formatting"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ViewPager2DemoActivity"
+            android:label="@string/viewpager2_listener"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ViewPagerDemoActivity"
+            android:label="@string/viewpager_listener"
             android:parentActivityName=".MainActivity"/>
     </application>
 

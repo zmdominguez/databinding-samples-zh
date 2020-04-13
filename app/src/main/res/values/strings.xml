@@ -15,4 +15,8 @@
         but included layouts. This illustrates how we can bind pre-defined values to various
         components of a reusable widget.</string>
     <string name="example_string_formatting">String Formatting and Plurals</string>
+    <string name="viewpager_listener">ViewPager Listener example</string>
+    <string name="viewpager_example_description">This example demonstrates how to implement only the listeners we care about for some widgets, like a ViewPager.</string>
+    <string name="viewpager2_listener">ViewPager2 Listener example</string>
+    <string name="viewpager2_example_description">This example demonstrates how to implement only the listeners we care about for some widgets, like a ViewPager2.</string>
 </resources>
