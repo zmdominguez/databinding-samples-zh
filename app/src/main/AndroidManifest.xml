@@ -24,6 +24,9 @@
         <activity android:name=".ClipImageActivity" />
 
         <activity android:name=".ProfileActivity" />
+        <activity android:name=".StringFormattingActivity"
+            android:label="@string/example_string_formatting"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

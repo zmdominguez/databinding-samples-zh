@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <import type="dev.zarah.databinding.BannersActivity.Banner" />
 
         <variable

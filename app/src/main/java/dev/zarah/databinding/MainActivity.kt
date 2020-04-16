@@ -25,4 +25,8 @@ class MainActivity : AppCompatActivity() {
     fun launchLiveDataExample() {
         startActivity(Intent(this, ProfileActivity::class.java))
     }
+
+    fun launchStringFormatting() {
+        startActivity(Intent(this, StringFormattingActivity::class.java))
+    }
 }
