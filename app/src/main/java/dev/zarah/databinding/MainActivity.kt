@@ -29,4 +29,12 @@ class MainActivity : AppCompatActivity() {
     fun launchStringFormatting() {
         startActivity(Intent(this, StringFormattingActivity::class.java))
     }
+
+    fun launchViewPager2Example() {
+        startActivity(Intent(this, ViewPager2DemoActivity::class.java))
+    }
+
+    fun launchViewPagerExample() {
+        startActivity(Intent(this, ViewPagerDemoActivity::class.java))
+    }
 }

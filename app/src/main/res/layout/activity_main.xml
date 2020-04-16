@@ -38,5 +38,17 @@
             android:text="@string/example_string_formatting"
             android:onClick="@{() -> handlers.launchStringFormatting()}"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> handlers.launchViewPagerExample()}"
+            android:text="@string/viewpager_listener" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> handlers.launchViewPager2Example()}"
+            android:text="@string/viewpager2_listener" />
+
     </LinearLayout>
 </layout>
