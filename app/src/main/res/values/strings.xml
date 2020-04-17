@@ -19,4 +19,7 @@
     <string name="viewpager_example_description">This example demonstrates how to implement only the listeners we care about for some widgets, like a ViewPager.</string>
     <string name="viewpager2_listener">ViewPager2 Listener example</string>
     <string name="viewpager2_example_description">This example demonstrates how to implement only the listeners we care about for some widgets, like a ViewPager2.</string>
+    <string name="edittext_listener">EditText Listener example</string>
+    <string name="edittext_example_description">This example demonstrates how to use existing BindingAdapters in the framework, like for an EditText.</string>
+    <string name="edittext_hint">Start typing and watch Logcat</string>
 </resources>

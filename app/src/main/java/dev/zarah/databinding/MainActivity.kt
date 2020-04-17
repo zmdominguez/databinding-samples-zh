@@ -37,4 +37,8 @@ class MainActivity : AppCompatActivity() {
     fun launchViewPagerExample() {
         startActivity(Intent(this, ViewPagerDemoActivity::class.java))
     }
+
+    fun launchEditTextExample() {
+        startActivity(Intent(this, EditTextDemoActivity::class.java))
+    }
 }

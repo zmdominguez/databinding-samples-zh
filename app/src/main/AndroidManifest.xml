@@ -36,6 +36,10 @@
         <activity android:name=".ViewPagerDemoActivity"
             android:label="@string/viewpager_listener"
             android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".EditTextDemoActivity"
+            android:label="@string/edittext_listener"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

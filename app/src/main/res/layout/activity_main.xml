@@ -41,6 +41,12 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="@{() -> handlers.launchEditTextExample()}"
+            android:text="@string/edittext_listener" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:onClick="@{() -> handlers.launchViewPagerExample()}"
             android:text="@string/viewpager_listener" />
 
